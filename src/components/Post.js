@@ -33,7 +33,7 @@ class Post extends Component{
 
 
     render(){
-        //console.log(this.props)
+        console.log(this.props)
         let id = this.props.match.params.postId;
         const posts = this.props.state 
         const postToDisp =  posts.find(p => p.id === id);      

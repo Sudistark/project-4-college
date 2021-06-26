@@ -56,7 +56,7 @@ class Home extends Component{
         let nPost = {
             title: this.state.title,
             body: this.state.body,
-            id: Math.random()
+            id: (Math.random()).toString()
         }
 
         this.props.addPost(nPost);
