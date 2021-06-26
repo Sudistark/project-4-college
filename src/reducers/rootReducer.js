@@ -1,8 +1,8 @@
 const initState = {
     posts: [
-        {id: '1', title: 'Ash got his first pokemon pikachu', body: 'Pika Pika Pika Pikachu Pika Pika Pika PikachuPika Pika Pika Pikachu Pika Pika Pika Pikachu Pika Pika Pika Pikachu Pika Pika Pika PikPikachu Pika Pika Pika Pikachu Pika Pika Pika Pikachu '},
-        {id: '2',title: 'Ash saved Charmander', body: 'Cha Char Charmander Cha Char Charmander Cha Char Charmander Cha Char Charmander Cha Char Charmander Cha Char Charmander Cha Char Charmander Cha Char Charmander Cha Char Charmander Cha Char Charmander '},
-        {id: '3', title: 'Jigglypuff starts singing! lol', body: 'Jiggaly jiga...... Jiggaly jiga...... Jiggaly jiga...... Jiggaly jiga...... Jiggaly jiga...... Jiggaly jiga...... Jiggaly jiga......Jiggaly jiga...... Jiggaly jiga...... Jiggaly jiga...... '}
+        {id: '1', title: 'Grocery Items', body: 'Need to buy a packet of bread and butter'},
+        {id: '2',title: 'Gym', body: 'Tomorrow morning at 7:00 am. Be ready!!'},
+        {id: '3', title: 'Pokemon', body: 'Gotta Catch "Em All'}
     ]
 }
 
