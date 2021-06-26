@@ -14,7 +14,6 @@ const Navbar = (props) => {
                     
                     <li><Link  to="/">Home</Link></li>
                     <li><NavLink to="/about.html">About Us</NavLink></li>
-                    <li><NavLink to="/contacts.html">Contact Us</NavLink></li>
                     {/*Replace andchor href with link to avoid loading the index page everytime switching between componenets*/}
                     {/*It's similar to e.preventDefault */}
                 </ul>
