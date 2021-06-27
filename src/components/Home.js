@@ -56,7 +56,7 @@ class Home extends Component{
         let nPost = {
             title: this.state.title,
             body: this.state.body,
-            id: (Math.random()).toString()
+            id: (Math.random()).toString() //without toString it wasn't working on /{postId} page
         }
 
         this.props.addPost(nPost);
@@ -101,7 +101,7 @@ class Home extends Component{
                         <input type="text" onChange={this.handleChange1} value={this.state.title} placeholder="Title"/>
                         <input type="text" onChange={this.handleChange2} value={this.state.body} placeholder="Description"/>
                         <button className="btn grey" onClick={this.handleClick}>
-                            Add Todos
+                            Add Todo
                         </button>
                     </form>
                 </div>

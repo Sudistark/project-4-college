@@ -39,8 +39,12 @@ class Post extends Component{
         const postToDisp =  posts.find(p => p.id === id);      
         const post = postToDisp ? (
             <div className="post">
-                <h4 className="center">{postToDisp.title}</h4>
-                <p>{postToDisp.body}</p>
+                <h3 className="center">{postToDisp.title}</h3>
+                <p><b>{postToDisp.body}</b></p>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
                 <div className="center">
                     <button className="btn grey" onClick={this.handleClick}>
                         Delete Todo
